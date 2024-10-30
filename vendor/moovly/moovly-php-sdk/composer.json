@@ -1,0 +1,29 @@
+{
+    "name": "moovly/moovly-php-sdk",
+    "description": "The Moovly PHP SDK",
+    "keywords": ["video", "automation", "moovly"],
+    "type": "library",
+    "require": {
+        "php": "^7.1|^8.0",
+        "guzzlehttp/guzzle": "^6.3|^7.0",
+        "nicmart/string-template": "^0.1.1"
+    },
+    "authors": [
+        {
+            "name": "NielsCor",
+            "email": "niels.corneille@moovly.com"
+        }
+    ],
+    "require-dev": {
+        "phpspec/phpspec": "^5.1 || ^7.0",
+        "sebastian/comparator": "^1.2.4 || ^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moovly\\SDK\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
